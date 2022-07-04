@@ -1,0 +1,4 @@
+//mipmap // parameters: alpha_test both_side envmap
+0 shkfr.png // diffuse texture, alpha texture
+0 1 0 1 // color
+3 // special

@@ -1,0 +1,5 @@
+4 4 // poèet vstupù, poèet modù (sloupce, øádky nebo x, y)
+1 0.5 0 th-skd0.jpg  skda.png       skdd.png       skde.png // první z nich je selection obrázek (pro menu)
+1 0 0   th-skd1.jpg  skda_red.png   skdd_red.png   skde_red.png
+0 1 0   th-skd2.jpg  skda_green.png skdd_green.png skde_green.png
+0 1 1   th-skd3.jpg  skda_blue.png  skdd_blue.png  skde_blue.png

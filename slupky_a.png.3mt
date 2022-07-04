@@ -1,0 +1,4 @@
+alpha_test both_side//mipmap //both_side
+slupky_d.png slupky_a.png // diffuse texture, alpha texture
+1 1 1 1 // color
+0 // special

@@ -1,0 +1,4 @@
+alpha_test mipmap both_side lighting
+barrierd.png barriera.png // diffuse texture, alpha texture
+1 1 1 1 // color
+0 // special

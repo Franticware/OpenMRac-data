@@ -1,0 +1,4 @@
+lighting mipmap
+cone.png 0 // diffuse texture, alpha texture
+1 1 1 1 // color
+0 // special

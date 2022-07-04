@@ -1,0 +1,4 @@
+lighting alpha_test both_side mipmap
+crated.png cratea.png // diffuse texture, alpha texture
+1 1 1 1 // color
+0 // special

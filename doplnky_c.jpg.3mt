@@ -1,0 +1,4 @@
+alpha_test mipmap lighting //both_side
+doplnky_c.jpg 0 // diffuse texture, alpha texture
+1 1 1 1 // color
+0 // special

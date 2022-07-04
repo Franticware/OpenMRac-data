@@ -1,0 +1,4 @@
+alpha_test both_side //mipmap  // envmap
+konstrukce_d.jpg konstrukce_a.png // diffuse texture, alpha texture
+1 1 1 1 // color
+0 // special

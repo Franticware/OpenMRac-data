@@ -1,0 +1,4 @@
+lighting mipmap // parameters: alpha_test both_side envmap
+nadrz.jpg 0 // diffuse texture, alpha texture
+1 1 1 1 // color
+0 // special

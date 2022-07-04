@@ -1,0 +1,4 @@
+lighting env_map //alpha_test both_side // mipmap
+skdd_red.jpg skda.png // diffuse texture, alpha texture
+1 1 1 1 // color
+0 // special

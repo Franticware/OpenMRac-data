@@ -1,0 +1,5 @@
+4 4
+0 0 1          th-trb0.jpg trba.png trbd.png trbe.png                             // první z nich je selection obrázek (pro menu)
+1 1 0          th-trb1.jpg trba_yellow.png trbd_yellow.png trbe_yellow.png
+0.75 0.75 0.75 th-trb2.jpg trba_gray.png trbd_gray.png trbe_gray.png
+0 1 0          th-trb3.jpg trba_green.png trbd_green.png trbe_green.png

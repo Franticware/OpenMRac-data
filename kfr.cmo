@@ -1,0 +1,5 @@
+4 4
+0.5 0 1        th-kfr0.jpg kfra.png kfrd.png kfre.png // první z nich je selection obrázek (pro menu)
+1 0 0          th-kfr1.jpg kfra_red.png kfrd_red.png kfre_red.png // v pohode se to nacita, i kdyz tam barva neni
+0 1 0          th-kfr2.jpg kfra_green.png kfrd_green.png kfre_green.png
+0.3 0.3 0.3    th-kfr3.jpg kfra_black.png kfrd_black.png kfre_black.png
