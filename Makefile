@@ -11,10 +11,12 @@ $(TARGET): *.jpg *.png *.3dm *.3mt *.cmo *.def *.wav
 	ls *.jpg *.png *.3dm *.3mt *.cmo *.def *.raw > filelist.txt
 	rm -f $(TARGET)
 	while read line; do tar -rvf $(TARGET) $$line; done < filelist.txt
+	sha1sum $(TARGET) > $(TARGET).sha1sum
 
 clean:
 	rm -f *.raw
 	rm -f $(TARGET)
+	rm -f $(TARGET).sha1sum
 	rm -f wavlist.txt
 	rm -f filelist.txt
 
