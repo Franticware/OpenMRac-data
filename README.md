@@ -12,3 +12,6 @@ http://tulrich.com/fonts/
 https://opengameart.org/content/real-asphalt-texture-pack  
 https://opengameart.org/content/synthetic-grass-texture-pack  
 https://opengameart.org/content/free-urban-textures-fences
+
+## Note
+A pre-built openmrac.dat can be extracted from a Windows build [here](https://www.franticware.com/openmrac).
