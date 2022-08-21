@@ -20,8 +20,7 @@ clean:
 	rm -f wavlist.txt
 	rm -f filelist.txt
 
-install: $(TARGET)
-	sudo rm -rf $(INSTALLDIR)
+install: $(TARGET) uninstall
 	sudo mkdir $(INSTALLDIR)
 	sudo cp $(TARGET) $(INSTALLDIR)$(TARGET)
 
