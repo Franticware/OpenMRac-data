@@ -1,5 +1,6 @@
+prefix ?= /usr/local
 TARGET = openmrac.dat
-INSTALLDIR = /usr/share/openmrac/
+INSTALLDIR = $(prefix)/share/openmrac/
 
 .PHONY: all clean install uninstall
 
