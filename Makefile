@@ -10,7 +10,7 @@ $(TARGET): *.jpg *.png *.3dm *.3mt *.cmo *.def *.wav
 	while read line; do rm -f $$line.raw; sox $$line.wav --bits 16 $$line.raw; done < wavlist.txt
 	ls *.jpg *.png *.3dm *.3mt *.cmo *.def *.raw > filelist.txt
 	rm -f $(TARGET)
-	while read line; do tar --owner=root:0 --group=root:0 --mtime='UTC 1970-01-01 00:00:00' -rvf $(TARGET) $$line; done < filelist.txt
+	while read line; do tar --owner=root:0 --group=root:0 --mtime='UTC 1970-01-01 00:00:00' --mode=go=rX,u+rw,a-s -rvf $(TARGET) $$line; done < filelist.txt
 	sha1sum $(TARGET) > $(TARGET).sha1sum
 
 clean:
